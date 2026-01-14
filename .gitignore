@@ -1,26 +1,118 @@
+# BaraSuite .gitignore
+# Laravel + Docker + IDE konfigurációk
+
+# Laravel
 /.phpunit.cache
 /node_modules
-/npm-debug.log
 /public/build
 /public/hot
 /public/storage
 /storage/*.key
-/storage/pail
 /vendor
 .env
 .env.backup
 .env.production
-.phpactor.json
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
 auth.json
 npm-debug.log
 yarn-error.log
-/.fleet
-/.idea
-/.vscode
-/.zed
 
-/playwright-report
-/test-results
+# Filament
+/public/css/filament
+/public/js/filament
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# IDE - PhpStorm / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Logs
+*.log
+/storage/logs/*.log
+
+# Database
+*.sqlite
+*.sqlite-journal
+/database/*.sqlite
+/database/*.sqlite-journal
+
+# Backups
+*.sql
+*.gz
+*.zip
+/backups/
+
+# Deployment
+/.deploy/
+/deployment/
+
+# Testing
+/coverage/
+/.phpunit.cache/
+
+# Composer
+/vendor/
+composer.lock
+
+# NPM / Yarn
+/node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# Build artifacts
+/public/mix-manifest.json
+/public/css/
+/public/js/
+!/public/js/.gitkeep
+!/public/css/.gitkeep
+
+# Cache
+/bootstrap/cache/*
+!/bootstrap/cache/.gitkeep
+/storage/framework/cache/*
+!/storage/framework/cache/.gitkeep
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitkeep
+/storage/framework/views/*
+!/storage/framework/views/.gitkeep
+
+# API Keys & Secrets (biztonsági okokból)
+.env.local
+.env.*.local
+secrets.json
+
+# BaraSuite specific
+/storage/app/unas-sync/
+/storage/app/exports/
+/storage/app/backups/
