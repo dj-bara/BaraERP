@@ -1,20 +1,100 @@
 MIT License
 
-Copyright 2010-2025, Webkul Software
+Copyright (c) 2025 Laci / BaraSuite
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is furnished
-to do so, subject to the following conditions:
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
-PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT 
-HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION 
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+
+ATTRIBUTION
+
+This software is based on AureusERP, an open-source ERP system:
+
+Original Project: https://github.com/aureuserp/aureuserp
+Copyright (c) 2024 AureusERP Contributors
+Licensed under the MIT License
+
+The AureusERP project is licensed under the following terms:
+
+--------------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2024 AureusERP Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+
+THIRD-PARTY LICENSES
+
+This software may include third-party libraries and components that are 
+licensed under their own respective licenses. See the respective package 
+documentation for details:
+
+- Laravel Framework: https://github.com/laravel/laravel/blob/master/LICENSE.md
+- FilamentPHP: https://github.com/filamentphp/filament/blob/3.x/LICENSE.md
+- Other dependencies: See composer.json and package.json
+
+================================================================================
+
+COMMERCIAL USE
+
+This software is licensed under the MIT License, which explicitly permits 
+commercial use, including:
+
+✓ Using the software for commercial purposes
+✓ Selling services based on this software
+✓ Modifying and distributing modified versions
+✓ Incorporating into proprietary software
+
+No additional permission or licensing fees are required for commercial use,
+as long as the copyright notice and permission notice are included in all
+copies or substantial portions of the Software.
+
+================================================================================
+
+DISCLAIMER
+
+THE SOFTWARE AND ALL MODIFICATIONS ARE PROVIDED "AS IS", WITHOUT WARRANTY 
+OF ANY KIND. THE AUTHORS AND COPYRIGHT HOLDERS DISCLAIM ALL LIABILITY FOR 
+ANY DAMAGES ARISING FROM USE OF THIS SOFTWARE.
+
+For support and contributions, visit:
+https://github.com/dj-bara/BaraERP
+
+================================================================================
+
+Last Updated: January 14, 2025
