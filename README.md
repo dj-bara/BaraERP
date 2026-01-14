@@ -13,7 +13,7 @@
 
 ## 💼 Célpiac
 
-- Webshop tulajdonosok (főleg Unas platform)
+- Webshop tulajdonosok
 - Kiskereskedelmi vállalkozások
 - Nagykereskedők
 - Szolgáltató cégek
@@ -29,7 +29,7 @@
 
 ## 📦 Modulok
 
-### ✅ Alapmodulok (AureusERP alapból)
+### ✅ Alapmodulok
 
 - **Contacts** - Ügyfelek, szállítók, kapcsolattartók kezelése
 - **Inventory** - Termékek, készlet, vonalkód
@@ -50,6 +50,7 @@
 
 ### 📅 Tervezett
 
+- **AI Features** - AI-powered automatizáció és predikciók
 - **Billingo/Számlázz.hu** - Magyar számlázó integrációk
 - **Shoprenter/Shopify** - További webshop platformok
 - **Advanced Reporting** - BI dashboard
@@ -121,14 +122,13 @@ php artisan serve
 # http://localhost:8000/admin
 ```
 
-## 🔑 Alapértelmezett bejelentkezés
+## 🔐 Biztonsági megjegyzés
 
-```
-Email: admin@barasuite.test
-Jelszó: password
-```
+A telepítés során automatikusan létrejön egy admin felhasználó. Az alapértelmezett bejelentkezési adatokat **azonnal változtasd meg** az első bejelentkezés után!
 
-**⚠️ FONTOS:** Éles környezetben azonnal változtasd meg!
+Bejelentkezés után:
+1. Menj a **User Management** menüpontba
+2. Módosítsd az admin email címét és jelszavát
 
 ## 📚 Dokumentáció
 
@@ -154,16 +154,17 @@ Ez a szoftver az AureusERP-re épül:
 
 ## 👨‍💻 Fejlesztő
 
-- **Név**: Laci
+- **Név**: Bara
 - **GitHub**: [@dj-bara](https://github.com/dj-bara)
-- **Projekt**: BaraSuite
-- **Lokáció**: Budapest, Hungary 🇭🇺
+- **Email**: info@barasuite.hu
+- **Lokáció**: Hungary 🇭🇺
 
 ## 🔗 Linkek
 
+- **GitHub**: https://github.com/dj-bara/BaraERP
+- **Issues**: https://github.com/dj-bara/BaraERP/issues
 - **Demo**: https://demo.barasuite.hu (Hamarosan)
 - **Dokumentáció**: https://docs.barasuite.hu (Hamarosan)
-- **Support**: https://github.com/dj-bara/BaraERP/issues
 
 ## 📊 Projekt Státusz
 
@@ -181,6 +182,7 @@ Utolsó frissítés: 2025. január 14.
 - [ ] Login redirect bug fix
 - [ ] CRM modul fejlesztés (Leads, Deals, Pipeline)
 - [ ] Unas API integráció
+- [ ] AI features implementáció
 - [ ] Production deployment (Hetzner/Oracle Cloud)
 - [ ] Demo környezet
 - [ ] Első 3-5 ügyfél
@@ -192,6 +194,7 @@ BaraSuite célja, hogy a **legkedveltebb magyar ERP+CRM megoldás** legyen kisv�
 **Miért BaraSuite?**
 - 🇭🇺 Magyar nyelv és support
 - 🛒 Natív Unas integráció (egyedi piaci rés!)
+- 🤖 AI-powered automatizáció
 - 💰 Átlátható árazás
 - 🔓 MIT licensz (kereskedelmi szabadság)
 - ⚡ Modern tech stack (Laravel + Filament)
@@ -202,5 +205,3 @@ BaraSuite célja, hogy a **legkedveltebb magyar ERP+CRM megoldás** legyen kisv�
 **BaraSuite** - *Minden, amit egy magyar kisvállalkozásnak szüksége van. Egy helyen.*
 
 ---
-
-*Készült ❤️-vel Budapesten*
