@@ -1,11 +1,15 @@
-# 🚀 BaraSuite - Magyar ERP + CRM Rendszer
+<div align="center">
+  <img src="docs/assets/barasuite.png" alt="BaraSuite Logo" width="200"/>
+  <p><strong>Magyar ERP + CRM Rendszer</strong></p>
+  <p><em>Minden, amit egy magyar kisvállalkozásnak szüksége van. Egy helyen.</em></p>
+</div>
 
-**BaraSuite** egy komplett üzleti menedzsment rendszer magyar kis- és középvállalkozások számára, amely integrálja a CRM (ügyfélkezelés) és ERP (készlet, számlázás, beszerzés) funkciókat egyetlen modern platformon.
+---
 
 ## 🎯 Fő Jellemzők
 
 - **🇭🇺 100% Magyar** - Teljes magyar nyelvi támogatás
-- **🛒 Unas Webshop Integráció** - Közvetlen szinkronizáció Unas webshopokkal
+- **🛒 Webshop Integráció** - Közvetlen szinkronizáció (Unas, WooCommerce)
 - **📊 ERP Modulok** - Készlet, raktár, számlázás, beszerzés
 - **👥 CRM Rendszer** - Lead-ek, üzletek, sales pipeline
 - **⚡ Modern UI** - FilamentPHP alapú admin felület
@@ -46,13 +50,13 @@
 - **Deals** - Ajánlatok, üzletkötés, pipeline
 - **Sales Pipeline** - Kanban board, stages, forecasting
 - **Email Integration** - Gmail/Outlook sync
-- **Unas Sync** - Webshop integráció (rendelések, ügyfelek, termékek, készlet)
+- **Webshop Sync** - Automatikus integráció (rendelések, ügyfelek, termékek, készlet)
 
 ### 📅 Tervezett
 
 - **AI Features** - AI-powered automatizáció és predikciók
 - **Billingo/Számlázz.hu** - Magyar számlázó integrációk
-- **Shoprenter/Shopify** - További webshop platformok
+- **További webshop platformok** - Shoprenter, Shopify
 - **Advanced Reporting** - BI dashboard
 - **Mobile App** - React Native / Flutter
 
@@ -135,7 +139,7 @@ Bejelentkezés után:
 - [Felhasználói kézikönyv](docs/user-guide.md) - Hamarosan
 - [Fejlesztői dokumentáció](docs/developer-guide.md) - Hamarosan
 - [API dokumentáció](docs/api.md) - Hamarosan
-- [Unas integráció](docs/unas-integration.md) - Hamarosan
+- [Webshop integráció](docs/integrations.md) - Hamarosan
 
 ## 🤝 Hozzájárulás
 
@@ -179,21 +183,18 @@ Utolsó frissítés: 2025. január 14.
 - [x] GitHub fork (AureusERP → BaraSuite)
 - [x] Docker environment setup
 - [x] Initial branding
-- [ ] Login redirect bug fix
 - [ ] CRM modul fejlesztés (Leads, Deals, Pipeline)
-- [ ] Unas API integráció
+- [ ] Webshop API integráció
 - [ ] AI features implementáció
-- [ ] Production deployment (Hetzner/Oracle Cloud)
 - [ ] Demo környezet
-- [ ] Első 3-5 ügyfél
 
 ## 🎯 Jövőkép
 
-BaraSuite célja, hogy a **legkedveltebb magyar ERP+CRM megoldás** legyen kisvállalkozások számára, különösen azok számára, akik Unas webshopot üzemeltetnek.
+BaraSuite célja, hogy a **legkedveltebb magyar ERP+CRM megoldás** legyen kisvállalkozások számára.
 
 **Miért BaraSuite?**
 - 🇭🇺 Magyar nyelv és support
-- 🛒 Natív Unas integráció (egyedi piaci rés!)
+- 🛒 Webshop integrációk (Unas, WooCommerce, stb.)
 - 🤖 AI-powered automatizáció
 - 💰 Átlátható árazás
 - 🔓 MIT licensz (kereskedelmi szabadság)
