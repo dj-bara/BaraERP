@@ -1,43 +1,51 @@
 {
-    "name": "aureuserp/aureuserp",
+    "name": "dj-bara/barasuite",
     "type": "project",
-
-    "description": "Open Source ERP Solution built on Laravel for Small and Medium Enterprises (SMEs) and large-scale enterprises.",
+    "description": "BaraSuite - Magyar ERP + CRM rendszer Unas webshop integrációval. Komplett üzleti menedzsment megoldás kisvállalkozásoknak.",
     "keywords": [
         "erp",
+        "crm",
         "laravel",
-        "framework"
+        "filament",
+        "unas",
+        "webshop",
+        "inventory",
+        "invoicing",
+        "magyar",
+        "hungarian",
+        "business-management"
     ],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Bara",
+            "email": "info@barasuite.hu",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/dj-bara/BaraERP",
+    "support": {
+        "issues": "https://github.com/dj-bara/BaraERP/issues",
+        "source": "https://github.com/dj-bara/BaraERP"
+    },
     "require": {
         "php": "^8.2",
-        "awcodes/filament-badgeable-column": "^3.0",
-        "barryvdh/laravel-debugbar": "^3.15",
-        "barryvdh/laravel-dompdf": "^3.1",
-        "bezhansalleh/filament-shield": "^4.0",
-        "filament/filament": "^4.1",
-        "filament/spatie-laravel-settings-plugin": "^4.0",
-        "flowframe/laravel-trend": "^0.3.0",
-        "guava/filament-icon-picker": "^3.0",
-        "hugomyb/filament-media-action": "^4.0",
-        "laravel/framework": "^11.9",
-        "laravel/tinker": "^2.9",
-        "maatwebsite/excel": "^3.1",
-        "malzariey/filament-daterangepicker-filter": "^4.0",
-        "milon/barcode": "^11.0",
-        "spatie/eloquent-sortable": "^4.4",
-        "wikimedia/composer-merge-plugin": "^2.1"
+        "laravel/framework": "^11.0",
+        "filament/filament": "^4.0",
+        "filament/forms": "^4.0",
+        "filament/tables": "^4.0",
+        "filament/notifications": "^4.0",
+        "filament/actions": "^4.0",
+        "filament/infolists": "^4.0",
+        "filament/widgets": "^4.0"
     },
     "require-dev": {
-        "fakerphp/faker": "^1.23",
-        "filament/upgrade": "^4.0",
-        "laravel/boost": "^1.1",
-        "laravel/pail": "^1.1",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.26",
         "mockery/mockery": "^1.6",
-        "nunomaduro/collision": "^8.1",
-        "phpunit/phpunit": "^11.0.1"
+        "nunomaduro/collision": "^8.0",
+        "phpunit/phpunit": "^11.0",
+        "spatie/laravel-ignition": "^2.4"
     },
     "autoload": {
         "psr-4": {
@@ -58,7 +66,8 @@
             "@php artisan filament:upgrade"
         ],
         "post-update-cmd": [
-            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force",
+            "@php artisan filament:upgrade"
         ],
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
@@ -67,20 +76,11 @@
             "@php artisan key:generate --ansi",
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
             "@php artisan migrate --graceful --ansi"
-        ],
-        "dev": [
-            "Composer\\Config::disableProcessTimeout",
-            "npx concurrently -c \"#93c5fd,#c4b5fd,#fb7185,#fdba74\" \"php artisan serve\" \"php artisan queue:listen --tries=1\" \"php artisan pail --timeout=0\" \"npm run dev\" --names=server,queue,logs,vite"
         ]
     },
     "extra": {
         "laravel": {
             "dont-discover": []
-        },
-        "merge-plugin": {
-            "include": [
-                "plugins/*/*/composer.json"
-            ]
         }
     },
     "config": {
@@ -89,16 +89,9 @@
         "sort-packages": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true,
-            "php-http/discovery": true,
-            "wikimedia/composer-merge-plugin": true
+            "php-http/discovery": true
         }
     },
-    "minimum-stability": "beta",
-    "prefer-stable": true,
-    "support": {
-        "issues": "https://github.com/aureuserp/aureuserp/issues",
-        "forum": "https://forums.aureuserp.com",
-        "source": "https://github.com/aureuserp/aureuserp",
-        "docs": "https://devdocs.aureuserp.com"
-    }
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
